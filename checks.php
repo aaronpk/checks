@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('UTC');
 include("lib/check-generator.php");
 
 $CHK = new CheckGenerator;
